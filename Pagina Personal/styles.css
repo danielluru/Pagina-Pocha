@@ -1,0 +1,81 @@
+body{
+    margin:0%;
+    padding: 0%;
+    background-color: black;
+}
+header{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.titulo{
+    color: white;
+}
+
+#Hollow{
+    border: 1cm;
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#hollowMapa{
+    height: 500px;
+}
+
+#Elden{
+    border: 1cm;
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#map{
+    height: auto;
+}
+
+footer{
+    margin: 0;
+    background-color: #333;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
